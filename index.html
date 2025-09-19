@@ -12,10 +12,11 @@
     <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
 
     <script src="script.js"></script>
-
+    <script src="script/db.js"></script>
+    <script src="script/templates.js"></script>
 </head>
 
-<body>
+<body onload="init()">
     <header>
         <img src="icons/Logo.png" alt="">
         <img class="header-img" src="imgs/Hamburger_icon.svg.png" alt="menu-bar" onclick="OpenMenu()">
@@ -23,14 +24,23 @@
 
     <main>
         <section class="info-section">
-            <div class="info-text">
-              
+            <div class="header-img-content">
+                <img src="imgs/Nudel.jpg" alt="">
             </div>
-            <div>
-               <h2>Paradise Nudels</h2>
+            <div class="header-info-text">
+                <h2>Paradise Nudels</h2>
+                <h5>Bewertungen(4,2 von 5 Sterner)</h5>
             </div>
-            <div>
-
+            <div class="menu">
+                <a href="#">Hauptgerichte</a>
+                <a href="#">Beilage</a>
+            </div>
+            <div class="title-header">
+                <img src="imgs/pizza 2.webp" alt="">
+                <h3>Hauptgerichte</h3>
+            </div>
+            <div class="menu-list" id="menu-list-content">
+                
             </div>
         </section>
         <section class="order-section">

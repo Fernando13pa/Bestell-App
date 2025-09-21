@@ -16,7 +16,7 @@ let myDishes = [
     },
     {
         "name": "Pizzabrötchen",
-        "price": 12.90,
+        "price": 12.95,
         "description": "mit Käse und Knochblauch"
     },
 ]

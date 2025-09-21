@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bestell App DA</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style/assec.css">
+    <link rel="stylesheet"
+        href="Fonts/RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf">
 
-    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+
 
     <script src="script.js"></script>
     <script src="script/db.js"></script>
@@ -19,32 +22,42 @@
 <body onload="init()">
     <header>
         <img src="icons/Logo.png" alt="">
-        <img class="header-img" src="imgs/Hamburger_icon.svg.png" alt="menu-bar" onclick="OpenMenu()">
+        <img class="menu-icon" src="imgs/Hamburger_icon.svg.png" alt="menu-bar" onclick="OpenMenu()">
     </header>
 
     <main>
         <section class="info-section">
-            <div class="header-img-content">
+            <div class="dish-img-1">
                 <img src="imgs/Nudel.jpg" alt="">
             </div>
-            <div class="header-info-text">
+            <div class="dishes-title">
                 <h2>Paradise Nudels</h2>
-                <h5>Bewertungen(4,2 von 5 Sterner)</h5>
+                <p> Bewertungen(4,2 von 5 Sterner)</p>
             </div>
-            <div class="menu">
+            <div class="dishes">
                 <a href="#">Hauptgerichte</a>
                 <a href="#">Beilage</a>
             </div>
-            <div class="title-header">
+            <div class="dish-img-2">
                 <img src="imgs/pizza 2.webp" alt="">
                 <h3>Hauptgerichte</h3>
             </div>
-            <div class="menu-list" id="menu-list-content">
-                
+            <div class="dishes-list" id="dishes-list-content">
+
             </div>
         </section>
         <section class="order-section">
-            <h1>Warenkorb</h1>
+            <div class="shopping-cart">
+                <div class="order-cart-header">
+                    <h1>Warenkorb</h1>
+                </div>
+                <div class="order-list"   id="order-dish-list">
+                    
+                </div>
+                <div class="order-calculation"   id="order-sume">
+
+                </div>
+            </div>
         </section>
     </main>
 

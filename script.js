@@ -5,7 +5,7 @@ function init() {
 
 
 function renderMenu() {
-    let contentRef = document.getElementById('menu-list-content');
+    let contentRef = document.getElementById('dishes-list-content');
     let myDishesMenu = myDishes;
     
 
